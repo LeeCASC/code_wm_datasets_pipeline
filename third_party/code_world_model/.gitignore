@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+*~
+
+# Local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets/
+/config.json
+
+# Model artifacts: never commit weights or LoRA checkpoints
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
+*.onnx
+models/
+weights/
+checkpoints/
+
+# Inputs, caches, recoveries, and generated outputs
+inputs/
+data/
+artifacts/
+cache/
+caches/
+downloads/
+environments/
+outputs/
+release/
+runs/
+logs/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.flac
+*.depth.f32
+*.semantic_id.png
+
+# Temporary files
+third_party/
+tmp/
+temp/
+*.tmp
+*.part

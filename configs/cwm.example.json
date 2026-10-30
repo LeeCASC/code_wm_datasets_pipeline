@@ -1,0 +1,25 @@
+{
+  "models": {
+    "dit": "../models/diffusion_models/minimax_h3_ref2va_bf16.safetensors",
+    "text_encoder": "../models/text_encoders/qwen3vl_32b_minimax_h3_bf16.safetensors",
+    "video_vae": "../models/vae/minimax_h3_video_vae_fp16.safetensors",
+    "audio_vae": "../models/vae/minimax_h3_audio_vae_fp32.safetensors",
+    "processor": "../models/processors/Qwen3-VL-32B-Instruct",
+    "lora": "../models/lora/minimax-h3-cwm.safetensors"
+  },
+  "anchor_image": "../assets/examples/aircraft/anchor_photoreal.png",
+  "condition_root": "../outputs/aircraft_proxy/side/condition",
+  "cache_dir": "../outputs/aircraft_example/cache",
+  "output": "../outputs/aircraft_example/aircraft.mp4",
+  "windows": [
+    {
+      "start_frame": 0,
+      "prompt": "[0.00s-5.17s] A white twin-engine airplane with a dark blue tail accelerates on an airport runway in natural daylight, gently raises its nose and starts lifting off. Follow Video 1 for motion, viewpoint and layout, and Picture 1 for appearance."
+    }
+  ],
+  "seed": 1234,
+  "steps": 20,
+  "attention_mode": "flash3",
+  "blocks_to_swap": 48,
+  "expected_lora_modules": 200
+}

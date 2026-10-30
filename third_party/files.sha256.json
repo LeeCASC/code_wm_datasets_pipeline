@@ -1,0 +1,1967 @@
+[
+  {
+    "path": "code_world_model/.gitattributes",
+    "bytes": 64,
+    "sha256": "ea9445983c35315c1355493b0b9ba2f62c34ee8f923f92a74065140d6638b8f6"
+  },
+  {
+    "path": "code_world_model/.gitignore",
+    "bytes": 707,
+    "sha256": "bbcceb3bfa49a9af119618d41fead1bd2dcffe116d2ec0089a9725e25299fdb0"
+  },
+  {
+    "path": "code_world_model/ENVIRONMENT.md",
+    "bytes": 7885,
+    "sha256": "8a55b85b97db11e5355fe958810b42ee707bf88d3ffcb9dbce12a3f0c8fefc1b"
+  },
+  {
+    "path": "code_world_model/INFERENCE.md",
+    "bytes": 5144,
+    "sha256": "7be064d3230cd9e2827999220693f7ced0b0f83e8802fb3643e82035ad5fbdb5"
+  },
+  {
+    "path": "code_world_model/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "code_world_model/NOTICE",
+    "bytes": 264,
+    "sha256": "6bff3dd3b60413e59bfe38f85c6aa439fbac4bb5657164906b271cf75442b058"
+  },
+  {
+    "path": "code_world_model/README.md",
+    "bytes": 2145,
+    "sha256": "6b3036cc761f561a1c3080265f29a9675ba35ab7c6adc0417c5697cbf077e5fe"
+  },
+  {
+    "path": "code_world_model/THIRD_PARTY_NOTICES.md",
+    "bytes": 3731,
+    "sha256": "0d2e72dd2f81f7123c5b26113b84d3865eec2df221010b709a9bd48330c96b22"
+  },
+  {
+    "path": "code_world_model/examples/config.example.json",
+    "bytes": 881,
+    "sha256": "08d632a542a141853b025f8288dc94bfcda1f97f1880506833dd564e389e60e1"
+  },
+  {
+    "path": "code_world_model/examples/config.multiwindow.example.json",
+    "bytes": 1026,
+    "sha256": "59d11bbe28fbb11dcfcbfc133122504f6696c4f554704a83f7407b8a7e1f4ad1"
+  },
+  {
+    "path": "code_world_model/patches/minimax-h3-retake34.patch",
+    "bytes": 19233,
+    "sha256": "2a2e552c9449c507743bb93e40b8f76b4dc22d7f487f38f3fa126d25783355fd"
+  },
+  {
+    "path": "code_world_model/patches/musubi-headless-opencv.patch",
+    "bytes": 358,
+    "sha256": "e1b8e769b2ee1b87200aaca185919944ebfc32b166b99e3329d3b75af50dcf28"
+  },
+  {
+    "path": "code_world_model/pyproject.toml",
+    "bytes": 1362,
+    "sha256": "97a91e5b75a6be29d9528c2d952b8a0b2004ff10681d850828e303ae2cd80dda"
+  },
+  {
+    "path": "code_world_model/requirements-h800-cu128-py310.txt",
+    "bytes": 1036,
+    "sha256": "696be3ef22e793b37a55c415309b25db561a15d8e4ea54c8634b680a42c8ad92"
+  },
+  {
+    "path": "code_world_model/scripts/install_release_assets.sh",
+    "bytes": 3619,
+    "sha256": "3385646f0a004b062309888d1b68f888547487f7be184b5206b71fd5b80ec8ca"
+  },
+  {
+    "path": "code_world_model/scripts/materialize_hf_examples.py",
+    "bytes": 16366,
+    "sha256": "de86996503dbce0e48164ddc07eb6ece269d52b708cb80307497fdc9762d7459"
+  },
+  {
+    "path": "code_world_model/scripts/verify_h800_runtime.py",
+    "bytes": 1909,
+    "sha256": "246a812cd9bb9069c1021a4ec687d9063ff4386dceaa1b8ae0fcec31e5f7bdd2"
+  },
+  {
+    "path": "code_world_model/scripts/verify_musubi_patch.sh",
+    "bytes": 2285,
+    "sha256": "66f42c13fdaa85483918611a0e2b43e41370a95a21ff3a99082f33e99db930d5"
+  },
+  {
+    "path": "code_world_model/src/cwm_h3_inference/__init__.py",
+    "bytes": 134,
+    "sha256": "234b3531ed971817fbd85d705a3087935c302fbddc5f3f3fbaf37eb801d0c5a0"
+  },
+  {
+    "path": "code_world_model/src/cwm_h3_inference/__main__.py",
+    "bytes": 48,
+    "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+  },
+  {
+    "path": "code_world_model/src/cwm_h3_inference/cache.py",
+    "bytes": 12867,
+    "sha256": "4385e4cf203db1fbd19759104a73ee10f3492430e4a936578b9b29394adc5ec2"
+  },
+  {
+    "path": "code_world_model/src/cwm_h3_inference/cli.py",
+    "bytes": 1581,
+    "sha256": "4633d3f13177dc6896fbeb38308fe4de54be7d7306a4bc66b590377bcdbb3459"
+  },
+  {
+    "path": "code_world_model/src/cwm_h3_inference/config.py",
+    "bytes": 6462,
+    "sha256": "5ec93eae58c333f05786e20e065f72162437af5401f3790b9167c8cb7f89f437"
+  },
+  {
+    "path": "code_world_model/src/cwm_h3_inference/constants.py",
+    "bytes": 1186,
+    "sha256": "f2d0e8126a867eeaf915ba3546946a6e0271af0b6e0b8f1c21bea548eda0123f"
+  },
+  {
+    "path": "code_world_model/src/cwm_h3_inference/duv.py",
+    "bytes": 2862,
+    "sha256": "8364de5ba4e99508e9dfce26535f45ffbb152d23b2c263b5a783c3e117579d9c"
+  },
+  {
+    "path": "code_world_model/src/cwm_h3_inference/engine.py",
+    "bytes": 16260,
+    "sha256": "106b7ba7686180c46207e187929a52eb62311d3ed6749ba0fed66935e0408641"
+  },
+  {
+    "path": "code_world_model/src/cwm_h3_inference/io.py",
+    "bytes": 1496,
+    "sha256": "3f4742e46cc7883c66c04faf445a4a083ef997391bae18ef8a47f43bbe3a66da"
+  },
+  {
+    "path": "code_world_model/src/cwm_h3_inference/presentation.py",
+    "bytes": 2964,
+    "sha256": "fa883b8ee2f519c2315bd0188db43f8bd912aa2ce369635ed814fbef8144eea7"
+  },
+  {
+    "path": "code_world_model/src/cwm_h3_inference/prompts/system_w0.txt",
+    "bytes": 3829,
+    "sha256": "d488897872a5b190ff8d56b6acc255b66a78f67ae862c12582fcffc8a5dd4ddc"
+  },
+  {
+    "path": "code_world_model/src/cwm_h3_inference/prompts/system_wn.txt",
+    "bytes": 4457,
+    "sha256": "cd018def9793b4f73cd1c9da9d8ca9ca508dd94a260a19d915aaf9f80b97b6b2"
+  },
+  {
+    "path": "code_world_model/src/cwm_h3_inference/runtime.py",
+    "bytes": 3361,
+    "sha256": "47ec45ed1eb38fd25117db3c0b0b4a9bfe458c983a8861bda76f6a5677ce4878"
+  },
+  {
+    "path": "code_world_model/tests/conftest.py",
+    "bytes": 1817,
+    "sha256": "f7fc3d7b6f580cac0eed5c64725a27b357ae4e0aff23524fde613bad0f5815ca"
+  },
+  {
+    "path": "code_world_model/tests/test_contract.py",
+    "bytes": 5277,
+    "sha256": "2ee48d1bc4aa7d29063b3ca8ea77d4edd4051cc28d97e6773937260471dbc6ae"
+  },
+  {
+    "path": "code_world_model/tests/test_duv.py",
+    "bytes": 2913,
+    "sha256": "ef26a1bb9686d8865d98e6ee0edffed6929254757ac7ff1658c9232a96903629"
+  },
+  {
+    "path": "code_world_model/tests/test_materialize_hf_examples.py",
+    "bytes": 5952,
+    "sha256": "bae88a4a932361ceb5a9dcbb5b3a64cd361cf115eb6cf8f16e8accc473480c69"
+  },
+  {
+    "path": "musubi_tuner/.ai/claude.prompt.md",
+    "bytes": 280,
+    "sha256": "180ced4f5329cd670a30e1cc6e54b07db78d4e4d69de98c19a970fe95e7d8b90"
+  },
+  {
+    "path": "musubi_tuner/.ai/codex.prompt.md",
+    "bytes": 1564,
+    "sha256": "b2c02c8afa5227379fd3ff24c7eee912aa1ef1ed095dc2062cc2df8d5756c9a4"
+  },
+  {
+    "path": "musubi_tuner/.ai/context/overview.md",
+    "bytes": 3057,
+    "sha256": "4c1fee0e81b52b44576d85886a66f6965440f6e159353f58930e643c89286d85"
+  },
+  {
+    "path": "musubi_tuner/.ai/gemini.prompt.md",
+    "bytes": 308,
+    "sha256": "14391725b033cdf865ad9657380cea9c2254f768abb0de60aa2b9dc9cfbb4bea"
+  },
+  {
+    "path": "musubi_tuner/.github/FUNDING.yml",
+    "bytes": 65,
+    "sha256": "776539f262ceddb36d7e4ccd001fe5b9c857b822a9c16eda30b8c473a51d88ac"
+  },
+  {
+    "path": "musubi_tuner/.github/workflows/ruff-lint.yml",
+    "bytes": 1097,
+    "sha256": "87ee515ac278963a32c151f02da93a092d41a13cb224b1c25753505af3d74f27"
+  },
+  {
+    "path": "musubi_tuner/.gitignore",
+    "bytes": 157,
+    "sha256": "24235e6c0f05d86aed8f74e1ba7906800798d8008a5ea371f3a5ec373f74056c"
+  },
+  {
+    "path": "musubi_tuner/.python-version",
+    "bytes": 5,
+    "sha256": "7a41a41354ab8049091ef1a00253ca00567f5a1d3f9aef5502c0b4b5ce9ae707"
+  },
+  {
+    "path": "musubi_tuner/CONTRIBUTING.ja.md",
+    "bytes": 12944,
+    "sha256": "06e9a6bdf4a6fbebac6f29c8b93b08f0b83e22f5ed5552b2ee282a15e9f495b1"
+  },
+  {
+    "path": "musubi_tuner/CONTRIBUTING.md",
+    "bytes": 9371,
+    "sha256": "de54e9af44ac2207d26e5d86f14aae7057c268420d514d9a38f211cd584abfe2"
+  },
+  {
+    "path": "musubi_tuner/README.ja.md",
+    "bytes": 20389,
+    "sha256": "4d66d56c11be44492df356cc859877c58d800d22b9753b0bc02320e09d4fa209"
+  },
+  {
+    "path": "musubi_tuner/README.md",
+    "bytes": 17458,
+    "sha256": "0ee2a4c4841bb8ab77ca0c4d1bd5a4e078649d1dffebb4d06605e3dd1d9e646c"
+  },
+  {
+    "path": "musubi_tuner/cache_latents.py",
+    "bytes": 83,
+    "sha256": "2949ce9b16ec5062e0416c3e26f1f26fc2f763e6e646ce3057c66877581c34e6"
+  },
+  {
+    "path": "musubi_tuner/cache_text_encoder_outputs.py",
+    "bytes": 96,
+    "sha256": "232461f42dbf4ace46e87a16c51533d36913521bbb7e4f2b62235e41d2df000c"
+  },
+  {
+    "path": "musubi_tuner/caption_images_by_qwen_vl.py",
+    "bytes": 95,
+    "sha256": "8c96e422ccaf0ca8ae433748a421d58b045d2a524ce32cc1137be44962b3d7d7"
+  },
+  {
+    "path": "musubi_tuner/convert_lora.py",
+    "bytes": 82,
+    "sha256": "875df014ae910a9ca07132f20a20a3f017cf9bf3d487d0fdc2c71b35a7411970"
+  },
+  {
+    "path": "musubi_tuner/docs/advanced_config.md",
+    "bytes": 58129,
+    "sha256": "cdc78df387f2a4788fb4c8123a754a6a073849529a365929d5c2229afa8cdad1"
+  },
+  {
+    "path": "musubi_tuner/docs/betas_for_sigma_rel.png",
+    "bytes": 66031,
+    "sha256": "77ec2f19a0ef7e6a677a30b8530b05eeeeb0fa9c33df723c38ede3532c478d21"
+  },
+  {
+    "path": "musubi_tuner/docs/block_swap.md",
+    "bytes": 12175,
+    "sha256": "bae1304561a9c8a62b1bbbfb8d95abcd262e5df56390ee68fc7a3c9c5dbde754"
+  },
+  {
+    "path": "musubi_tuner/docs/dataset_config.md",
+    "bytes": 45376,
+    "sha256": "03e4e72eb24f3c21f87ef053b86bbb72c238a63b243c08e838fc5c5fbebaf89b"
+  },
+  {
+    "path": "musubi_tuner/docs/flux_2.md",
+    "bytes": 18774,
+    "sha256": "d9287706d984f96f297ab4f6639389eb5de7bc15353c9d23f1bf6f67548c58bc"
+  },
+  {
+    "path": "musubi_tuner/docs/flux_kontext.md",
+    "bytes": 11233,
+    "sha256": "f120e1e1338fe202f66ca29b372c0fd3abfd7d8ad3442f330636b072f7dbae27"
+  },
+  {
+    "path": "musubi_tuner/docs/framepack.md",
+    "bytes": 51122,
+    "sha256": "33f21f79b0597568a00c1e8c6f76a90af2b9413914c830088684218f366a616d"
+  },
+  {
+    "path": "musubi_tuner/docs/framepack_1f.md",
+    "bytes": 34224,
+    "sha256": "db830b6d5f01a39ef5f101a2fd7c11b971ce739ae6a4642028d563ee8534f5e1"
+  },
+  {
+    "path": "musubi_tuner/docs/hidream_o1.md",
+    "bytes": 13486,
+    "sha256": "bc6fcbbdb1c5f989bb34f5691c349957e5bcc05ad59e5d02d1b83137c213477b"
+  },
+  {
+    "path": "musubi_tuner/docs/hunyuan_video.md",
+    "bytes": 38346,
+    "sha256": "18b5d64b22e7fcb1d53f5510d852e4b29ea5a34c573b71bca1a70c26ac41c875"
+  },
+  {
+    "path": "musubi_tuner/docs/hunyuan_video_1_5.md",
+    "bytes": 22329,
+    "sha256": "5c85ab9172046514d65babd897ce777957d7dee21a761d35f8224ba28e38bfed"
+  },
+  {
+    "path": "musubi_tuner/docs/ideogram4.md",
+    "bytes": 19410,
+    "sha256": "c862a5d5cbb6dc285d6bcae7665415aacd58a05a8127878b69999e491ec7f70e"
+  },
+  {
+    "path": "musubi_tuner/docs/kandinsky5.md",
+    "bytes": 23053,
+    "sha256": "a8526a3090e245d2bd8f2274b429835f3af85e63ae9a28724ec1850f7515051b"
+  },
+  {
+    "path": "musubi_tuner/docs/kisekaeichi_ref.png",
+    "bytes": 583507,
+    "sha256": "e5037f0a0cfb1a6b0a8d1f19fb462df75fb53384d0d9e654c359ca984fafa605"
+  },
+  {
+    "path": "musubi_tuner/docs/kisekaeichi_ref_mask.png",
+    "bytes": 17351,
+    "sha256": "69ebba82dd24ff20b0c60cbb0a6d32e879dee36a58c6ca35867862c3a5c407a4"
+  },
+  {
+    "path": "musubi_tuner/docs/kisekaeichi_result.png",
+    "bytes": 408282,
+    "sha256": "223dacb98ac834a442ee124641a6b852b1cde3bc1f11939e78192fc8be2f7b49"
+  },
+  {
+    "path": "musubi_tuner/docs/kisekaeichi_start.png",
+    "bytes": 1033975,
+    "sha256": "beee4a910402ef2798b00aa4d193b0b7186380ed24928a4d39acc8635d2cfdaf"
+  },
+  {
+    "path": "musubi_tuner/docs/kisekaeichi_start_mask.png",
+    "bytes": 14908,
+    "sha256": "9e81933caf5125439e46a34476d339912b981d868517e278d6f9fb6064b328c6"
+  },
+  {
+    "path": "musubi_tuner/docs/krea2.md",
+    "bytes": 32619,
+    "sha256": "506a73890ede57bedb5e9a8d14f708121db13c309091854808e07db850f7e961"
+  },
+  {
+    "path": "musubi_tuner/docs/logsnr_distribution.png",
+    "bytes": 15186,
+    "sha256": "a612d0570c3a4cf6a0ea75be934f7d6ced788d5e58c0e9dcbfcc16ce5487c50a"
+  },
+  {
+    "path": "musubi_tuner/docs/loha_lokr.md",
+    "bytes": 15507,
+    "sha256": "90b8c23a619998afb8d12a8d89b7b5bf5449f048406ebc82d3970b10785faee7"
+  },
+  {
+    "path": "musubi_tuner/docs/minimax_h3.md",
+    "bytes": 10697,
+    "sha256": "4b54531fc99be44822ea1805fa5d394883ab61b301eff986d6feb6568eba0ddb"
+  },
+  {
+    "path": "musubi_tuner/docs/qinglong_distribution.png",
+    "bytes": 15478,
+    "sha256": "0b63e0ff906e6a28d178ac12c29112741e0d5527d38c9940533713bcd64e0dd5"
+  },
+  {
+    "path": "musubi_tuner/docs/qwen_image.md",
+    "bytes": 45142,
+    "sha256": "6636da4c8abfd9852d9e1403afdcb6e839833e2213f6db3dd68e98dd77e1325a"
+  },
+  {
+    "path": "musubi_tuner/docs/sampling_during_training.md",
+    "bytes": 9892,
+    "sha256": "3d9b948b13ebb91fdc3e208a37cd53fea70fd812fb4a07844182c1d77a9f4ae7"
+  },
+  {
+    "path": "musubi_tuner/docs/shift_3.png",
+    "bytes": 13957,
+    "sha256": "9ae14ecf6f5c991ff137eed71d4cb56c4a98d8f18621ebe41c385077957546a6"
+  },
+  {
+    "path": "musubi_tuner/docs/shift_3_500_1000.png",
+    "bytes": 13204,
+    "sha256": "03603c5b4b5e643824e42f3eb23e44261f0b6cf717b38a1d564e37d4c992b8d8"
+  },
+  {
+    "path": "musubi_tuner/docs/shift_3_500_1000_preserve.png",
+    "bytes": 14196,
+    "sha256": "10d8e1c6095ad6725ef5f05107b43bdf8b94c6c2e5e03d1d32e55a8253f59452"
+  },
+  {
+    "path": "musubi_tuner/docs/superpowers/plans/2026-08-03-minimax-h3-r1-implementation.md",
+    "bytes": 34653,
+    "sha256": "24f0a981b3f977844aeb695249853d30479a109af2c7ee4f0074d6b6303c29a6"
+  },
+  {
+    "path": "musubi_tuner/docs/superpowers/specs/2026-08-03-minimax-h3-support-design.md",
+    "bytes": 54045,
+    "sha256": "fedb13452037be4d563c4fc9baf370a5ae7febe1f7dc95181e2be5f00d41b659"
+  },
+  {
+    "path": "musubi_tuner/docs/tools.md",
+    "bytes": 21187,
+    "sha256": "280d8f99ceabeab5f3beb5c3cd323888875e74c481449a707538cf028e469127"
+  },
+  {
+    "path": "musubi_tuner/docs/torch_compile.md",
+    "bytes": 18018,
+    "sha256": "c5075ebab444bcd62d2959aede7db45f58fe7689e6fb31f5e2baaeae5ef321f8"
+  },
+  {
+    "path": "musubi_tuner/docs/wan.md",
+    "bytes": 44814,
+    "sha256": "3abd24093fbf365d2fe09c68f3a0bfa7aabceedc529d2790ad66ef6a09fddf8c"
+  },
+  {
+    "path": "musubi_tuner/docs/wan_1f.md",
+    "bytes": 12898,
+    "sha256": "72e642dd12544b05143cb9e91917977d4e486b98f855824a5d818a87776c152b"
+  },
+  {
+    "path": "musubi_tuner/docs/zimage.md",
+    "bytes": 25621,
+    "sha256": "9b4309b45750df4664456387db72bc2e42dcefeec766f8349897ebdaac062fbe"
+  },
+  {
+    "path": "musubi_tuner/flux_2_cache_latents.py",
+    "bytes": 90,
+    "sha256": "0a1593cc77ab994d45e802d5b8a05a14813cb53413c0819b1f94de45f4dad31b"
+  },
+  {
+    "path": "musubi_tuner/flux_2_cache_text_encoder_outputs.py",
+    "bytes": 103,
+    "sha256": "b4aef77553a05735a3ba336c430865fb13ba5da2946d6aa45ce7a82336cc1483"
+  },
+  {
+    "path": "musubi_tuner/flux_2_generate_image.py",
+    "bytes": 91,
+    "sha256": "3360952257a0d5336a7160fd231c5f97de0b9b3eaeccc557b1a5f0cef7ed1718"
+  },
+  {
+    "path": "musubi_tuner/flux_2_train_network.py",
+    "bytes": 90,
+    "sha256": "e7a5d4cbdc8b0bfe94ee52192d466db4c69c4bd2146e9fe4764335dbf2f16196"
+  },
+  {
+    "path": "musubi_tuner/flux_kontext_cache_latents.py",
+    "bytes": 96,
+    "sha256": "4b3d7b1e34bcabd4988e4a169c175ccfab40c5e5a982dec6e6a7a1dcbe8ed63b"
+  },
+  {
+    "path": "musubi_tuner/flux_kontext_cache_text_encoder_outputs.py",
+    "bytes": 109,
+    "sha256": "ac0f26cfcf730a2ead5760abda17ba6d6193b8e3ccdc085b2817e0bbabc4334c"
+  },
+  {
+    "path": "musubi_tuner/flux_kontext_generate_image.py",
+    "bytes": 97,
+    "sha256": "35c1447b33de8fc8a371a938c0a41947cfc04883107ee81dc048c193f2669a31"
+  },
+  {
+    "path": "musubi_tuner/flux_kontext_train_network.py",
+    "bytes": 96,
+    "sha256": "cd7b92c29b62e094377d763c63946cdb0fe19d8df5310340a8c1d72341a46775"
+  },
+  {
+    "path": "musubi_tuner/fpack_cache_latents.py",
+    "bytes": 89,
+    "sha256": "de193c9b0c25a2183989f703e19ceaa24da73628d2fc2b5f9ad8e48b6af760ba"
+  },
+  {
+    "path": "musubi_tuner/fpack_cache_text_encoder_outputs.py",
+    "bytes": 102,
+    "sha256": "76d8059ded2c0aec58ed648103c58abfd40cb4c5a445405f7d68149caf12e069"
+  },
+  {
+    "path": "musubi_tuner/fpack_generate_video.py",
+    "bytes": 90,
+    "sha256": "4e8c4122af898b5c45a707dc98d582bc44aaac0ddb33fce16e2eea6ff42f6cc4"
+  },
+  {
+    "path": "musubi_tuner/fpack_train_network.py",
+    "bytes": 89,
+    "sha256": "b2533e2fc8e4779652c8ca63215c1351d4ee7026b65b8d59767c16578828a1cd"
+  },
+  {
+    "path": "musubi_tuner/hidream_o1_cache_pixel.py",
+    "bytes": 92,
+    "sha256": "5430b1f5e7ce14891bdf27e2eccd391c5cb4454c5582bbe767d5f16fdcc04a16"
+  },
+  {
+    "path": "musubi_tuner/hidream_o1_cache_text_encoder_outputs.py",
+    "bytes": 107,
+    "sha256": "f6a9be0dca4ff2595a759120f52b2953f810b4779e8b94bcc74f5133c63e0a19"
+  },
+  {
+    "path": "musubi_tuner/hidream_o1_generate_image.py",
+    "bytes": 95,
+    "sha256": "0273dcbc714f4b31bf17f0f828b24662b6217eccafb8b8a8b8373640a925eb55"
+  },
+  {
+    "path": "musubi_tuner/hidream_o1_train.py",
+    "bytes": 86,
+    "sha256": "472210f0a26b9e60de8e66c1cae089e85109a42421895e52b704300839871027"
+  },
+  {
+    "path": "musubi_tuner/hidream_o1_train_network.py",
+    "bytes": 94,
+    "sha256": "74c2be287ad631e03f1c09be356d642a891e117aa944db5f3081989bb0daac2c"
+  },
+  {
+    "path": "musubi_tuner/hv_1_5_cache_latents.py",
+    "bytes": 90,
+    "sha256": "fa13ee959657e729de27f76d159aa3c3b652c8b505d6a199b2cecfc916688c15"
+  },
+  {
+    "path": "musubi_tuner/hv_1_5_cache_text_encoder_outputs.py",
+    "bytes": 103,
+    "sha256": "3a2e3d5203762bf562660bf2bcd223e9dcd654e17aeccf6dec6ce5cfd12b77b8"
+  },
+  {
+    "path": "musubi_tuner/hv_1_5_generate_video.py",
+    "bytes": 91,
+    "sha256": "ea08a4ebfcf069f9c600b2dc8b8820f46fcea7986bd50fca89485a44aaa825ae"
+  },
+  {
+    "path": "musubi_tuner/hv_1_5_train_network.py",
+    "bytes": 90,
+    "sha256": "08040454750af57fc737ff5baaf1ce4acbc751e1ca5d96f75546753b50969ab6"
+  },
+  {
+    "path": "musubi_tuner/hv_generate_video.py",
+    "bytes": 87,
+    "sha256": "765f193edf46c48fa6e5e3f121298c58f68c157399074ac9144ab01f9633bebd"
+  },
+  {
+    "path": "musubi_tuner/hv_train.py",
+    "bytes": 78,
+    "sha256": "39656ef343ce53664081782a4a86f028985ab208fe46064288617f5f063ee40d"
+  },
+  {
+    "path": "musubi_tuner/hv_train_network.py",
+    "bytes": 86,
+    "sha256": "f040b8dff56f901796e3ef315bda9270e34910d8afe53b845baebdacf298831a"
+  },
+  {
+    "path": "musubi_tuner/ideogram4_cache_latents.py",
+    "bytes": 93,
+    "sha256": "252b20eadb0a1da046b35857f83de548b102a4df1cd138d547eaca99ccf3ef70"
+  },
+  {
+    "path": "musubi_tuner/ideogram4_cache_text_encoder_outputs.py",
+    "bytes": 106,
+    "sha256": "5b2afb329b7c3e7783044f4e1be23bf598e0d3eda868f3f7400a14f1918451d6"
+  },
+  {
+    "path": "musubi_tuner/ideogram4_generate_image.py",
+    "bytes": 94,
+    "sha256": "23da69da2243c271d56446b03b2b62db956afe6d47d0a7dffb046a8b951ffbec"
+  },
+  {
+    "path": "musubi_tuner/ideogram4_train_network.py",
+    "bytes": 93,
+    "sha256": "2a8d562d2f5b39c76ce742e7f1b427a7f89188b8a6df16e9f2921c80d9d6c78b"
+  },
+  {
+    "path": "musubi_tuner/images/logo_aihub.png",
+    "bytes": 7090,
+    "sha256": "13f8b7aea1907b42936cfad5889e80337486402e10e9f5719c29f019a10f8965"
+  },
+  {
+    "path": "musubi_tuner/kandinsky5_cache_latents.py",
+    "bytes": 94,
+    "sha256": "e5861dde9af0904df1156589d9c68efc042bfe25865d3e1c6b8e1217a37560ce"
+  },
+  {
+    "path": "musubi_tuner/kandinsky5_cache_text_encoder_outputs.py",
+    "bytes": 107,
+    "sha256": "112ea5c48838314a0a0fcb0001bd217c91f68f8c72c048c21d2f630b8a673366"
+  },
+  {
+    "path": "musubi_tuner/kandinsky5_generate_video.py",
+    "bytes": 95,
+    "sha256": "91c046015e7529c336d6c40e08309452b5355b8fd0f724b0e6afe06107f34647"
+  },
+  {
+    "path": "musubi_tuner/kandinsky5_train_network.py",
+    "bytes": 94,
+    "sha256": "5856274f8cbf9a70cf7170280bc057bd907d657aaf8c3b3c09ff1a57adb5b8fa"
+  },
+  {
+    "path": "musubi_tuner/krea2_cache_latents.py",
+    "bytes": 89,
+    "sha256": "b3f31fed59985ade70620d7fc386935baee089da0311a336a0ee12eb5589e7a1"
+  },
+  {
+    "path": "musubi_tuner/krea2_cache_text_encoder_outputs.py",
+    "bytes": 102,
+    "sha256": "479640bb57101a6e8c8dd45ad64a2a072ce6b00ca77cf426ac3f1225c9d004b9"
+  },
+  {
+    "path": "musubi_tuner/krea2_generate_image.py",
+    "bytes": 90,
+    "sha256": "fd0de461f40b941d8ec6c9953863d44ad5bedb8b6d00c1c6a4b02db15cf131b1"
+  },
+  {
+    "path": "musubi_tuner/krea2_train_network.py",
+    "bytes": 89,
+    "sha256": "7be80e873a051c1d8d8fccbc7ffcdf22aa717a183872427ee57a757a994d6601"
+  },
+  {
+    "path": "musubi_tuner/lora_post_hoc_ema.py",
+    "bytes": 87,
+    "sha256": "49171492872c742af60cab2ab67e4a97a82180a766698e29a0f67c1b7099650d"
+  },
+  {
+    "path": "musubi_tuner/merge_lora.py",
+    "bytes": 80,
+    "sha256": "7f348818cbeef22372db79223fb4faafc7b33dbd4b578b2eaf6b4e0a369fbe88"
+  },
+  {
+    "path": "musubi_tuner/minimax_h3_cache_latents.py",
+    "bytes": 94,
+    "sha256": "108f9a03ad20075b2d9cc1362bb5a2f35c97bc2cf66adc41aa5ff0e5dcf1fd53"
+  },
+  {
+    "path": "musubi_tuner/minimax_h3_cache_text_encoder_outputs.py",
+    "bytes": 107,
+    "sha256": "c259507edd226910a302e6ee7dfbd6b6a3ee84e66a56fdf8fb26b7e6053e0608"
+  },
+  {
+    "path": "musubi_tuner/minimax_h3_generate_video.py",
+    "bytes": 95,
+    "sha256": "b7b5adbc659746aeb31da06218e43a4c79d631d3a1f759ffa1119e4f46b6a9b9"
+  },
+  {
+    "path": "musubi_tuner/minimax_h3_train_network.py",
+    "bytes": 94,
+    "sha256": "f6ced91b3072c9feccb26a0a5d3c683a8eaef1ff5afe35d1b37a6503c4b831bf"
+  },
+  {
+    "path": "musubi_tuner/pyproject.toml",
+    "bytes": 6454,
+    "sha256": "b8f35bb787e15e4b0ae3160a6e9bc6c4cc834d70fcf620cddd0f3b491faddeb9"
+  },
+  {
+    "path": "musubi_tuner/qwen_extract_lora.py",
+    "bytes": 87,
+    "sha256": "b3c23825c165919d80e8b9dc4ebd6cae9e5d8c3bcb6998774a800a09c880abd7"
+  },
+  {
+    "path": "musubi_tuner/qwen_image_cache_latents.py",
+    "bytes": 94,
+    "sha256": "555fb053ced8e9fe3c273cecf55440a7b7f7f103bfeeaa96f02106a7c957a05a"
+  },
+  {
+    "path": "musubi_tuner/qwen_image_cache_text_encoder_outputs.py",
+    "bytes": 107,
+    "sha256": "ac6ac678210c4ecba838b76bddcb16b8dbbee073bfcba7d63c6425ddb423f3a7"
+  },
+  {
+    "path": "musubi_tuner/qwen_image_generate_image.py",
+    "bytes": 95,
+    "sha256": "1cdf19894b3d38e653f2a51d786bf6a4551d403a8e589d6e34dfb68935c600f2"
+  },
+  {
+    "path": "musubi_tuner/qwen_image_train.py",
+    "bytes": 86,
+    "sha256": "aa437941a69fdd1bd50641ca87ffafffe22b2ba0b76ccee1c2e016c77ae9b260"
+  },
+  {
+    "path": "musubi_tuner/qwen_image_train_network.py",
+    "bytes": 94,
+    "sha256": "cf485b2cbd087dafacb6015d56b49ae591b2b3631a8c926cae33fcad9bfc5782"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/cache_latents.py",
+    "bytes": 17425,
+    "sha256": "f9e1ed94a842a22dc7c33c3f1453d8136db91766a010c52681cd98f8d21adb76"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/cache_text_encoder_outputs.py",
+    "bytes": 9347,
+    "sha256": "e859da0eab825c7d0b79e394065b5633e5b16e91cd15de7ac443ae754646c6a5"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/caption_images_by_qwen_vl.py",
+    "bytes": 10470,
+    "sha256": "88838612a85c1c7f672db02c3a840f9beedf278f0684f3d75a88a314ca9cf862"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/convert_lora.py",
+    "bytes": 9800,
+    "sha256": "25e9ba27b0deede18ed78149d74adafea18c528c3c69fc5bc0a30f414f8931b6"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/dataset/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/dataset/architectures.py",
+    "bytes": 1771,
+    "sha256": "ef0ec77f2645bef610d46fd9a17af14aebc10a2233eda9425de1fd05faa2d30c"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/dataset/bucket.py",
+    "bytes": 11620,
+    "sha256": "2cb4d4c1c74f3becb00070aac84597529cec1313865c9042a7149c2ae41cc1ed"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/dataset/cache_io.py",
+    "bytes": 28499,
+    "sha256": "45cce3d9e02b2206e0d87b0c6afef9a16d7f536ec038dae2ac860f8f94ee19d3"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/dataset/config_utils.py",
+    "bytes": 16483,
+    "sha256": "b4b1917276ec5d7318dc2bb1815879d90238c2230f38437b7ef0eccdefb47925"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/dataset/dataset_config.md",
+    "bytes": 205,
+    "sha256": "ad4e1913caa0053795df205e230a81d9c3c99d503d4d9eacd986b48abe081d2b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/dataset/datasources.py",
+    "bytes": 27249,
+    "sha256": "068165011c13ccc1f051fd1aff3b5b4ac7c9c0d3b5fb79fd54d7df1cba32e6ce"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/dataset/image_video_dataset.py",
+    "bytes": 43281,
+    "sha256": "a4b0c54aed977b5d225563b6f3e0394cc907af5852ac9cafdb894ff4849cf71d"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/dataset/media_utils.py",
+    "bytes": 9198,
+    "sha256": "426443400b62faf7e25b7c756e814fb818d2f7580e794b9a405672d58999d902"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/flux/flux_models.py",
+    "bytes": 38049,
+    "sha256": "f619c4f6eb81773c7bfabf6897822b00529075f49d1525a7a99cf4c6eb0f7983"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/flux/flux_utils.py",
+    "bytes": 14399,
+    "sha256": "790f4079d3d89ec99a27dfaa752b1863be881a44dc74f2bf163782fa696c70ab"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/flux_2/flux2_models.py",
+    "bytes": 37363,
+    "sha256": "7d1a09ddedea27e69da044aedfcdca1e1e3b40e76a79122810342094d062f08d"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/flux_2/flux2_utils.py",
+    "bytes": 28371,
+    "sha256": "ded90fa23cd062e5b8b9f8139b159654fb45417c01cec316ea6c16ab0e2285fc"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/flux_2_cache_latents.py",
+    "bytes": 5265,
+    "sha256": "0ccbf5e0f9479fc9c285b98554344fc20906d8aa021ad64a1f523649581a59f8"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/flux_2_cache_text_encoder_outputs.py",
+    "bytes": 3718,
+    "sha256": "5717841fadc06e39dc33e4f667daab866faf1ce80d9212fc97af327a142674bd"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/flux_2_generate_image.py",
+    "bytes": 47396,
+    "sha256": "35233e994a58a67e078e2925ea02e365e06617cf203fe6c4c0e50f89a6da88eb"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/flux_2_train_network.py",
+    "bytes": 13324,
+    "sha256": "332bdf80cf07617f95f50083ca7a56a3dfcd3e9221cd2352883b9d0b6656d2e2"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/flux_2_train_network_self_flow.py",
+    "bytes": 17068,
+    "sha256": "7b0c2d64f519f1ce3779e2b0d4ab79c95a246507820b18e8db7a0550d8974db0"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/flux_kontext_cache_latents.py",
+    "bytes": 5340,
+    "sha256": "36bf118c5f12baad8ea3bfea002ef3f12434c76d830379f70f9b09e0793036bb"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/flux_kontext_cache_text_encoder_outputs.py",
+    "bytes": 4878,
+    "sha256": "fc04c1bb29458d9c75c107dc066e7d497d5c08f32a8ba247549eb6f4d30a2b2e"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/flux_kontext_generate_image.py",
+    "bytes": 46727,
+    "sha256": "41945306572b429a4d19e3be9edea6855f2814d313f8621df33534fa24d51a7d"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/flux_kontext_train_network.py",
+    "bytes": 15132,
+    "sha256": "fe443db140d82cc91576fed21667b828fb28f2c9d09e606c5f5ada8bf7384ec5"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/fpack_cache_latents.py",
+    "bytes": 25135,
+    "sha256": "5bff00805082f675b3b0fb97a3b9436760600ac70eaabeffcca7a54d4d1f1af4"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/fpack_cache_text_encoder_outputs.py",
+    "bytes": 4641,
+    "sha256": "e042dfd8e5351db11247ccddf28d0c84e627d61a6d27f7e8df4134311c16d146"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/fpack_generate_video.py",
+    "bytes": 95644,
+    "sha256": "c1333b28ac0c87233e1efbb9d2646e75321b00773dd3712d366390a37bf1bd00"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/fpack_train_network.py",
+    "bytes": 30229,
+    "sha256": "f128a06c3d43aa279e2a033faad325eb8121c0c428be5ea0a5bf1cf122ca0bbd"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/frame_pack/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/frame_pack/bucket_tools.py",
+    "bytes": 664,
+    "sha256": "a12be5ecbb889bf09a251e73eba4566bf830ea46a00226d9040b0d1808035516"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/frame_pack/clip_vision.py",
+    "bytes": 481,
+    "sha256": "e713aff299098e5cab1c85810a229b48b67ad0c0483a4e33455fe9fa1ec448a3"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/frame_pack/framepack_utils.py",
+    "bytes": 9788,
+    "sha256": "96f4376d9c6d8b8efa2fa08def31157ca0f50c02607bf3f4d63bca144d505e05"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/frame_pack/hunyuan.py",
+    "bytes": 5213,
+    "sha256": "84ebce224f35d87bf812b4d1cd5f6629033598adf0760ffdd9c4e7a5028640df"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/frame_pack/hunyuan_video_packed.py",
+    "bytes": 85585,
+    "sha256": "7a51e312afbbb632af41d455a94a7b2dfd3d7500de07f6755ee8737b190e973f"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/frame_pack/hunyuan_video_packed_inference.py",
+    "bytes": 13513,
+    "sha256": "1477561a7a3ec136744a3c5d1f24937a1c18168b2fb8ccd7ea3ce03264892bbc"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/frame_pack/k_diffusion_hunyuan.py",
+    "bytes": 4374,
+    "sha256": "e46974febe4e7b2cbba181ad55fc847b3a2eeaed3ea94929d8327cb1e699dd36"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/frame_pack/uni_pc_fm.py",
+    "bytes": 4459,
+    "sha256": "b2ba0987c91b414de0782fe282c2598d44b49835e50bd651910659317f46f934"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/frame_pack/utils.py",
+    "bytes": 17514,
+    "sha256": "62271c5e91143ad05ac56f440060a6a8e37aca050a2471e233828b3b6282720a"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/frame_pack/wrapper.py",
+    "bytes": 1889,
+    "sha256": "0b5211df070d75d8017486eaa03ab3b7cb1590eaac6a709592f5ebe7d8eb790b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/gui/config_manager.py",
+    "bytes": 4626,
+    "sha256": "c9381aab6c86ca41fc58ce97f9e3195710419a0e28b931ddc5d8246c69412309"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/gui/gui.ja.md",
+    "bytes": 20149,
+    "sha256": "a2d01d92d442acc4f1064d012f7451a699b8904307c00ee5e5138b3038d2518b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/gui/gui.md",
+    "bytes": 15871,
+    "sha256": "403b879c5aad0cd9df3e91cdd86c080a0a4499d591600fc47f1b4159b21297ac"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/gui/gui.py",
+    "bytes": 48558,
+    "sha256": "277bd93033fd08255c9c1c379a0de9e22314e93fd9566e060e7ea9f2fbbdcd27"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/gui/gui_implementation_plan.md",
+    "bytes": 5240,
+    "sha256": "c175d9a4933e1a1d96e168d81cc60c77b3e32cc18c4aec7e746c9bba3dc4c3c0"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/gui/i18n_data.py",
+    "bytes": 12586,
+    "sha256": "a6fdafc1408e35f15ff5b3c8c5591e704cd1a4e54975439a794846ccd0772fc4"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hidream_o1/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hidream_o1/flash_scheduler.py",
+    "bytes": 18044,
+    "sha256": "6f1c22a5992fd9d093b57b94284e8f52e07ac2f3a3f56c3dce1e3fe5d8561313"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hidream_o1/hidream_o1_utils.py",
+    "bytes": 12349,
+    "sha256": "51476cf04449bc299b76ae6cef17287056fa5ba1e18fdbf3a220988dd3210127"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hidream_o1/pipeline.py",
+    "bytes": 19861,
+    "sha256": "fca347bf3fccf786d582ece59d671c4ca2488b48d98a2127ec780378e518e144"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hidream_o1/qwen3_vl_transformers.py",
+    "bytes": 102778,
+    "sha256": "493565cd0cb247dcbef1903234dc0cc3dd5799f06e4e7760c0c5ca74a6eb088c"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hidream_o1/utils.py",
+    "bytes": 14477,
+    "sha256": "97a56d42af838cbdbcf57be88bb77b0e5497e11858ccd3c11cb55f5020fcd0f8"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hidream_o1_cache_pixel.py",
+    "bytes": 2909,
+    "sha256": "ac60115bc38285e5c03cebf445925e7d30c5fc42c0c57ff3b748135d4c7895ac"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hidream_o1_cache_text_encoder_outputs.py",
+    "bytes": 4285,
+    "sha256": "544090fe220ea3cf437df73648f5ef203b0da784cc026b4002ff3c4e1599d325"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hidream_o1_generate_image.py",
+    "bytes": 7366,
+    "sha256": "e80a7f6bd8592cbe8cdfef376a67b1424e0e96aa260b9bf182e318cd1c633126"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hidream_o1_train.py",
+    "bytes": 30475,
+    "sha256": "c27bb947efa180ecbdc8fac02b96cc0a586ac68f04b831c9bd23781cd9f277d2"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hidream_o1_train_network.py",
+    "bytes": 49121,
+    "sha256": "401a7a04009338ec5138842f424ec9c7c932c9e76bdef2c44749dbbfed792a0f"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/activation_layers.py",
+    "bytes": 591,
+    "sha256": "1e509b5e5f9527d199d6f0206f452e56fdb1bd25ce3ccc06fb47f3a16060ca39"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/attention.py",
+    "bytes": 10941,
+    "sha256": "321fba42c980687e84a607bce38b33cd681dcd06724794028690d705b93e02fe"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/autoencoder_kl_causal_3d.py",
+    "bytes": 25915,
+    "sha256": "2c05ac7f0415b0e001455c8950d47fc62910f48246a2d5bedb1bfd1d2782f1fc"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/embed_layers.py",
+    "bytes": 4394,
+    "sha256": "3351691ad8fdf68f22a83c5ae2e79a2ffff6f84b576d0c439fbaa50fa74bf593"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/fp8_optimization.py",
+    "bytes": 1763,
+    "sha256": "313695008484832ae8dd01250021d298aa8f4a5d62ca40e298c3584bacb59aa6"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/helpers.py",
+    "bytes": 943,
+    "sha256": "a0586c37b515bd3834491b352cdd7ea607ecfbc64efc7ea836bb3201419c5f6e"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/mlp_layers.py",
+    "bytes": 3758,
+    "sha256": "e5ddac9089880b1bd2fcb27a10310bcc14ae0d9f6f05bfe8eabd1d0fb4e05f08"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/models.py",
+    "bytes": 41639,
+    "sha256": "72cb01f6f3f89804945d928ff8a4d9e4da1554ce6ee400bd198bb98c68a735ea"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/modulate_layers.py",
+    "bytes": 1991,
+    "sha256": "15cba1037573a6e9d4682a46cf51d446d157ff19f4262436a181e88a2ef5fb94"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/norm_layers.py",
+    "bytes": 2104,
+    "sha256": "37b549ffae970bf97fa2a408cf2e43eed7dd7fa73003d93c68818abce0d78fcf"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/pipeline_hunyuan_video.py",
+    "bytes": 49484,
+    "sha256": "291cafabc12adf003b1c63805f88386c09706b9ae70f00e69a805d074e30a483"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/posemb_layers.py",
+    "bytes": 12681,
+    "sha256": "9438f427980305cde8029f770bc569d591c9c4567966e99611fe611cde2595cc"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/text_encoder.py",
+    "bytes": 28353,
+    "sha256": "f0e95c7bb6d7be54917e25e45994e4949c8b3b63c06c42633076dcb6a445a1ee"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/token_refiner.py",
+    "bytes": 8775,
+    "sha256": "ddfea7f14144877d8030db032e5e96fc991220ce694328730cc055d10a204a06"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_model/vae.py",
+    "bytes": 16525,
+    "sha256": "bc0015d29ba5c91f1de03e14c12749365fa5d1ca8eaa9945be218b422dca73cd"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_video_1_5/hunyuan_video_1_5_models.py",
+    "bytes": 20479,
+    "sha256": "e5b9463ef7e08b04b3d8d76ad9dc5f2232ee6897a7a8b9d521abf54c848050b2"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_video_1_5/hunyuan_video_1_5_modules.py",
+    "bytes": 26917,
+    "sha256": "1849464d98802adced1022fa0214430bbf5994c955b15d0277ffe3bde87a53c8"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_video_1_5/hunyuan_video_1_5_text_encoder.py",
+    "bytes": 41407,
+    "sha256": "953b78c7eb805a4ecf3f4cbeaa609f7cccb5c3c2482786f26264f897e5ccf599"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_video_1_5/hunyuan_video_1_5_utils.py",
+    "bytes": 9194,
+    "sha256": "2320f36115dddc8f0710ee57259507111ef91c0fe0b89ca2907f1fe2eaee084b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hunyuan_video_1_5/hunyuan_video_1_5_vae.py",
+    "bytes": 40969,
+    "sha256": "e0e551e331597f7ccfd4c141c59da29e02bd28ab0eecf4b18cdc4d8bc8ed3810"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hv_1_5_cache_latents.py",
+    "bytes": 7657,
+    "sha256": "ad0e543146b90214a0477ee0ff1f7bfaf0fe9b8641453d2bad4cb0659ed69d23"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hv_1_5_cache_text_encoder_outputs.py",
+    "bytes": 5889,
+    "sha256": "b97c50bb65b652a5b61e7d744c76ac28990707919c17e8f9471dd4ce1ec3f31d"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hv_1_5_generate_video.py",
+    "bytes": 52018,
+    "sha256": "575ef3b1457fb4763bb905cbcb35018af9ec386702b64377026f679d5c668558"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hv_1_5_train_network.py",
+    "bytes": 22404,
+    "sha256": "8701234894c734e3070666714717136afe5a73b27fc99671ab60adb355cb731a"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hv_generate_video.py",
+    "bytes": 42713,
+    "sha256": "7074e2852f5d7e0300e87acaabd2c1b09b03b35da4efa1c48eff8354aa24e553"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hv_train.py",
+    "bytes": 78012,
+    "sha256": "35e22dc53ed697e01c97efe94508aa44d8077acba480288e09af3d01e09965da"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/hv_train_network.py",
+    "bytes": 20152,
+    "sha256": "a1629051ab76eb71cb2de44944e705d979b8b339e76f389a33477e3101c30e5b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4/__init__.py",
+    "bytes": 26,
+    "sha256": "2cc0973923a271506c0ef9407ce18ebb53ca7dba755362e4fd165f78ee0d1e12"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4/caption_verifier.py",
+    "bytes": 12306,
+    "sha256": "f2cdae1ac28ef30c38b6ad5275a53d1ba87a8981f3920903344d9b37a4e636b5"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4/constants.py",
+    "bytes": 462,
+    "sha256": "efcaffb5983007f93232e74f347a94762b7bb75d474d27105d77cfdd9885807c"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4/ideogram4_autoencoder.py",
+    "bytes": 6193,
+    "sha256": "ebffe359481617ced84ed9ff440c6011216b5967cfc446018b78f2226e913f50"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4/ideogram4_model.py",
+    "bytes": 20022,
+    "sha256": "5861264763e1d6ad92dae7fd4420d1246ab81641435e773384cd73bc1af80d04"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4/ideogram4_quantized_loading.py",
+    "bytes": 6044,
+    "sha256": "c17d61ec234c60596b13e8d45128260100e5609285b483d186f7549bcad079bf"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4/ideogram4_scheduler.py",
+    "bytes": 2263,
+    "sha256": "a85682b06f3d6610073e416e8457496c39d102fdde4980ae0dad6217e852a0df"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4/ideogram4_utils.py",
+    "bytes": 32765,
+    "sha256": "26206a1bcc5d72c2c98a3daebfe7f528a666bae0f0cb5f20b3b2759096c9fc4e"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4/latent_norm.py",
+    "bytes": 4657,
+    "sha256": "02c59e5e0b85c286bd0539cc4f03affa85feac14392a3a5f63b1c3a988ffc927"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4/sampler_configs.py",
+    "bytes": 856,
+    "sha256": "ab4e168ba3d837864abb0d4a9503a5dcb2374ba189cc6821a6d4cbeac100093d"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4/sampling_policy.py",
+    "bytes": 192,
+    "sha256": "e7c58f4ea3a4524668856b6bf75b310979eeaf3a6b8902cbfa0fcf4a4b967e56"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4_cache_latents.py",
+    "bytes": 3219,
+    "sha256": "88817648816fa07c9fa59cde4835b8e53a2dc9791da18cc2da20c1f848f7e765"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4_cache_text_encoder_outputs.py",
+    "bytes": 4663,
+    "sha256": "48ed1de20ca29673a46a37c22b2a3cd42ae97f797ed1dbf60b4c31c4686e728f"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4_generate_image.py",
+    "bytes": 8487,
+    "sha256": "87ce44d48e7b1786f1f44b9000e7c7336310743460fe07f1af8d740a392647ac"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/ideogram4_train_network.py",
+    "bytes": 18261,
+    "sha256": "fc0b7c04bba3d5accd1376368a7894d87b4d34f7acaa06e1fc3073dcb6ec1fa8"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5/configs.py",
+    "bytes": 43725,
+    "sha256": "27d87202d46349cff3405c1b64f30a72e70251d4e187d833c55453dfaf18480b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5/generation_utils.py",
+    "bytes": 29205,
+    "sha256": "9ea85a2e2d73349c697e4ee33ba908461cb5070aa63e00fc50a11f3691ab35a7"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5/models/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5/models/attention.py",
+    "bytes": 3759,
+    "sha256": "3a4fd7ae0f6fc8a9dca82646e05e600f5461f52ae70b87fc9b83b33ae589ea7e"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5/models/dit.py",
+    "bytes": 12845,
+    "sha256": "b69ca75a1ce43d4dd3d3819f59f52aa4549c6225f274971bfcf76c1c2fee3f7d"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5/models/nn.py",
+    "bytes": 19244,
+    "sha256": "1f06cce8222064e1dacf3000e32967d7acbd5f785255795a3fecc0c67634119a"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5/models/text_embedders.py",
+    "bytes": 11207,
+    "sha256": "5c460596ebbd56105754c967386305ded01f67ac343f0352a69f39da798b6c40"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5/models/utils.py",
+    "bytes": 4186,
+    "sha256": "6966f35be438fb70e3495935a1cdee9a9e2851e9aa18848c56174772bcb49dae"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5/models/vae.py",
+    "bytes": 45385,
+    "sha256": "28627c04cbc6154d52f94c2cd82ad8c80f1610cc75670da83f701eef2f97c8b3"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5_cache_latents.py",
+    "bytes": 5448,
+    "sha256": "a03865aad561b780fa02a463330f6e4393a1e1bc8788562c33e9cf87ef5f0c37"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5_cache_text_encoder_outputs.py",
+    "bytes": 5494,
+    "sha256": "6da1d3fd5a2b71f65fcbdfdd3bc29fea9e3f520c8115674eeaac6ff0dafd084f"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5_generate_video.py",
+    "bytes": 14455,
+    "sha256": "60f20255d3afe56893c26160fa0551df0448282172ca9673ba0b6d6c251f0411"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/kandinsky5_train_network.py",
+    "bytes": 48086,
+    "sha256": "371b9d0d325d5ac2fb4f5c76574667c9ff0bdb0a71164a60e331081bc3a07612"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/krea2/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/krea2/krea2_encoder.py",
+    "bytes": 9137,
+    "sha256": "b36c9343676a12c9c0632029a8580f7836c4df885d453c6029abc0761ca66a9e"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/krea2/krea2_mmdit.py",
+    "bytes": 17695,
+    "sha256": "113ab8bde9fe480c6247650210c386e79b39f9b0326a2761b7e5f2239ff812c6"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/krea2/krea2_sampling.py",
+    "bytes": 9488,
+    "sha256": "c105af5ead11f3c2055284c1cdd6a98df301857c20c14767c4a46e65d32ba143"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/krea2/krea2_utils.py",
+    "bytes": 8804,
+    "sha256": "0e0d802dc56a6bacbf498b51af285988b747473e8e171c40827f546558998167"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/krea2_cache_latents.py",
+    "bytes": 3488,
+    "sha256": "e28496aafe49b08601fd08f83f6d58fd34b43d145fcabedf9e4cc6979552ac33"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/krea2_cache_text_encoder_outputs.py",
+    "bytes": 3876,
+    "sha256": "7f6935429da4cf741e400a959d2e43257e7789273ae194444f2eb4090df7495b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/krea2_generate_image.py",
+    "bytes": 19339,
+    "sha256": "e8aa24084b1d70983547fc666f473c24071d6845a2c9496046d799e96fe296ad"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/krea2_train_network.py",
+    "bytes": 25716,
+    "sha256": "7c393d10994b22f038f2616264b9a70cf488f75f8d14f714990ce7859536e92c"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/lora_post_hoc_ema.py",
+    "bytes": 5878,
+    "sha256": "953f016ab4d9aac25313df17968426cfcb1212ee11a76ab46b1db1dce3d832af"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/merge_lora.py",
+    "bytes": 2723,
+    "sha256": "7f1b4c103df9fca912c5eb6f5328be508aefb990e7bf700c0270cde35d6d52ab"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/minimax_h3/__init__.py",
+    "bytes": 63,
+    "sha256": "8c6ba3c3a35b42c8b50574045793da241ba3da46f10ecf77e3ea897ed1320289"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/minimax_h3/audio_vae.py",
+    "bytes": 16509,
+    "sha256": "4eb98b937a36dcdd22145be1fdbbb2fdfdb8f0d97de33e4e472aa20dd6f6c2fc"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/minimax_h3/checkpoint.py",
+    "bytes": 5989,
+    "sha256": "6bf7b95fa1a6c76e8c7c791f3331a0501a2463a0ff7b8dc4b4452f22b1ba921e"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/minimax_h3/media.py",
+    "bytes": 11718,
+    "sha256": "ac7a5e110215dd3c7ba439678432eea26ef1e50e5afc58e28b16bfb3b0e3e4ca"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/minimax_h3/model.py",
+    "bytes": 39329,
+    "sha256": "970478b37eec18af0b258bf3b42fe6ed7c96a046d6cd87978c3231467bad1117"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/minimax_h3/packing.py",
+    "bytes": 24753,
+    "sha256": "de426f674ee455aa325440406a73bfb768ef33b0de26a1b7725751f33e2c2ffb"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/minimax_h3/sampling.py",
+    "bytes": 16047,
+    "sha256": "307031877e3772c6fbb5b8356480fd2c8aa5aeb6a734b2cb0033d8e6423c7530"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/minimax_h3/text_encoder.py",
+    "bytes": 15733,
+    "sha256": "9687dcb725a5a4f7ba6a1c2a4210e4818d5c60f55c293dee3aa49defe937e39b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/minimax_h3/video_vae.py",
+    "bytes": 28607,
+    "sha256": "5bbf20c653c83ad97ca057492c1d4693e11fd521c80f2e18935bde5acddea088"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/minimax_h3_cache_latents.py",
+    "bytes": 32089,
+    "sha256": "d435945063a7cd15c9d875149293fb9388d021a63f9f415c30846929efa4f40d"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/minimax_h3_cache_text_encoder_outputs.py",
+    "bytes": 9480,
+    "sha256": "899565436cea137f7be50c2c2cc213a3123d42666878a60b55de176f4b623a1c"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/minimax_h3_generate_video.py",
+    "bytes": 25525,
+    "sha256": "6b94aef25573e950b4e873983e8b3a79006dc8711bf75a6eb0c86f80d981fb10"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/minimax_h3_train_network.py",
+    "bytes": 21862,
+    "sha256": "d7e650fa9819a13c8380ef591cd983693e3fb78aab2b2937ecff47bc48601e3d"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/modules/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/modules/adafactor_fused.py",
+    "bytes": 4401,
+    "sha256": "a5c0621e9e8cf27331195578bc674a33295fe3cb42b244ba7d92e99f4138a4c5"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/modules/attention.py",
+    "bytes": 13875,
+    "sha256": "dc09e28af2eba3cb72355b0ee0566135e81c74cdc6ff34d7714bcb66a775d857"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/modules/custom_offloading_utils.py",
+    "bytes": 53519,
+    "sha256": "3e986e682be7b9106c02db65586acde5e2a61654a6875327f04e25cae3ad68a9"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/modules/fp8_optimization_utils.py",
+    "bytes": 23407,
+    "sha256": "49952140e412de59fa42a09baa1f1ae073f37b79d9a754516098faf718031eef"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/modules/lr_schedulers.py",
+    "bytes": 3175,
+    "sha256": "07e67f9efc8766e0f4e9f4aa97090ceef2c87af7ba5421d839d1d5c6d112bb88"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/modules/scheduling_flow_match_discrete.py",
+    "bytes": 9549,
+    "sha256": "4283f7c8653bab7a4448fabd4fd5f5650a14c43f895f8fea1a855b78d5103b7c"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/modules/unet_causal_3d_blocks.py",
+    "bytes": 30369,
+    "sha256": "73736f0e15505b245a0f5eb46794572c69d3c268e1480399e57590f15c880b4d"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/convert_hunyuan_video_1_5_lora_to_comfy.py",
+    "bytes": 7309,
+    "sha256": "ba03d8a46f622b14d02bdfb030438816d6cc6b88fcdf9cbca6bd7f34cc0b41fe"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/convert_z_image_lora_to_comfy.py",
+    "bytes": 14074,
+    "sha256": "a30c24d048aa27154e74dfc01f12e819e3ab94f934cdad64403d87c68fc2ffb5"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/loha.py",
+    "bytes": 11385,
+    "sha256": "902aba17692ff4f9a395e717adb9587afb52cde35af21589b24802ee3027af41"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lokr.py",
+    "bytes": 13985,
+    "sha256": "5c2e723da98a4cbfbc2f7c6b0c521053a8348ac4643e5dc4b1e20b6f7031a604"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lora.py",
+    "bytes": 41126,
+    "sha256": "8a720566212d34c08d5862782aba0db6a3d6dd7e208cd56ddb05371a8886905e"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lora_flux.py",
+    "bytes": 1727,
+    "sha256": "0a56ff86dcfc8a5dfb5979cfe10b6750363d5ad9a8bd263c49089ae59a314ad5"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lora_flux_2.py",
+    "bytes": 1701,
+    "sha256": "ab26f3a9e1f12600d35557dbdae9a5b572d382f9dfd65ee3ab291318d45d0210"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lora_framepack.py",
+    "bytes": 1691,
+    "sha256": "67cb6218013fb0d73e9d44bf2b5250a269bff67cd3eeddedf6648e3fd19f8465"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lora_hidream_o1.py",
+    "bytes": 2582,
+    "sha256": "7faeda65e846604145aa6859688a1d55f1f6998dd2119930b2a38591e8cbbd63"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lora_hv_1_5.py",
+    "bytes": 1674,
+    "sha256": "89081dccff85af201e5644df0d57fdc1eb4f80c2a36c280d4ab827169dd6df09"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lora_ideogram4.py",
+    "bytes": 1858,
+    "sha256": "b20132add8ff3daa958e9f83c705c4fb2b7ecd6a5c12169a26e241190392b685"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lora_kandinsky.py",
+    "bytes": 2543,
+    "sha256": "8f6b7b6cb549ade3c1850bfbf1d6a9701d7d7900598ff3321ef16af27c1c0fd8"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lora_krea2.py",
+    "bytes": 2617,
+    "sha256": "3c97a294db7a1f096fd17efd50f73d81351d7691c1789700ce9fb25cd4e3613e"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lora_minimax_h3.py",
+    "bytes": 1878,
+    "sha256": "4c2c4c850f2ad6ad901e9d49088b54128f4e17ee09c88564db88602ede71fe17"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lora_qwen_image.py",
+    "bytes": 1669,
+    "sha256": "7452ebb6f7f5de29a4db6fe75a576b6f0e40944088fa03a6ceabbd507038fe4a"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lora_wan.py",
+    "bytes": 1704,
+    "sha256": "6425745f3b30084d1b853442227f5e9c5a041cba6cbf4000541d859f7ac64395"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/lora_zimage.py",
+    "bytes": 1652,
+    "sha256": "77a71a1324c9fbbe3083d87b629feca7a7653f60456602d2ec1e613215ab3265"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/networks/network_arch.py",
+    "bytes": 2378,
+    "sha256": "e521c55efba1de1dc3f49e243db14cbb10c6666a7368987a933e082f88af5d17"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/qwen_extract_lora.py",
+    "bytes": 5355,
+    "sha256": "4896f2c7044c0e147b3985165353d943161f1af069051eec5c9b1416d3576bc5"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/qwen_image/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/qwen_image/qwen_image_autoencoder_kl.py",
+    "bytes": 46716,
+    "sha256": "5863ded23ceba4135e5ffc7dfbfdedf83fc9ea8d16a5d118aaead4953e9faf39"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/qwen_image/qwen_image_model.py",
+    "bytes": 64922,
+    "sha256": "1d3a73833f81a456aedf2757c09b335e838db7ff9e487be60a260d2fdd354875"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/qwen_image/qwen_image_modules.py",
+    "bytes": 633,
+    "sha256": "6af4d9d30120e6c85f2eb405301e47ba97718900c534dc2d2d1e447a3d623f50"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/qwen_image/qwen_image_utils.py",
+    "bytes": 70208,
+    "sha256": "9efaa33ece444e581bd16f1ea223520e6efd53627a9555cb35c55753830a83eb"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/qwen_image_cache_latents.py",
+    "bytes": 8282,
+    "sha256": "9e7c50cecdc4ddc1bd8d40ab4371d884bf5cd64f9d79dc3a0300eb86b38ccc44"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/qwen_image_cache_text_encoder_outputs.py",
+    "bytes": 7379,
+    "sha256": "cdaea690be9cce6d2f32ea1034e7fc0b318062415396bc5448c47a32b9865cfd"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/qwen_image_generate_image.py",
+    "bytes": 64416,
+    "sha256": "e4a08b5a0857467ee5bfb9785c53b0fca69f7e39aa1dcf80ed6513be94e94a4d"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/qwen_image_train.py",
+    "bytes": 37037,
+    "sha256": "f30d22435d26e6f6cf31e800ec65162edf94987ecffb6ca3864e4f1512d04b74"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/qwen_image_train_network.py",
+    "bytes": 26804,
+    "sha256": "84aa7d8ab45a73b99abeeb0a82d7a09430625aa6e259a3e3b9f2c16cddf9ccdc"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/training/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/training/accelerator_setup.py",
+    "bytes": 4404,
+    "sha256": "a5f367ec1fac084ac4fc54327e4642104def22cc567c6ef0f564cdd3db6399c7"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/training/parser_common.py",
+    "bytes": 37113,
+    "sha256": "bfe08ac8bb92c2899c43b1df44abc26c2c47bf38d05dec8297bc6f563497b44b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/training/sampling_prompts.py",
+    "bytes": 4951,
+    "sha256": "6cb04b861fde3ee630819e2b9bda689a83dfd6e294bf8c83bca1968c1a1e58fe"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/training/timesteps.py",
+    "bytes": 4001,
+    "sha256": "1cfffb3f7dab7390c29cce28af6e465dfe458b7c80dc1931648ba72195809f1d"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/training/trainer_base.py",
+    "bytes": 100022,
+    "sha256": "60d0b0a2e9f11b3a6a551f83c93f28afebd407081e6801524966b5afbf1cc68a"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/utils/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/utils/device_utils.py",
+    "bytes": 781,
+    "sha256": "13508c5a533feecfa3495a0f55c49ea11e31e2efc868f61ee8f1b783de450aac"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/utils/huggingface_utils.py",
+    "bytes": 3095,
+    "sha256": "ee8d55aaec3c2d12f6715fa00caacf5ef71311cb409a45a580fcfdac021e43e9"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/utils/image_utils.py",
+    "bytes": 1524,
+    "sha256": "c827f2ee2babd010317cb28ef991dd9c26b423c9281861ed4d8fd5ebfc1f0731"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/utils/lora_utils.py",
+    "bytes": 13546,
+    "sha256": "ff96acf7702068b78e02eb9da67959fd7b294ba456b16792ee83113443b1a5a8"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/utils/model_utils.py",
+    "bytes": 9558,
+    "sha256": "3d5494c523afd9c88ca334e96fc52512fb0e3fb4c46d78500afaf8f6eda53d47"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/utils/safetensors_utils.py",
+    "bytes": 20397,
+    "sha256": "0d14ea6868e89717543abfe618b2493133872f116c8ddbc0313dc26600c37669"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/utils/sai_model_spec.py",
+    "bytes": 13991,
+    "sha256": "a5c363b53e02483babf6311ecf6e84459dbffc717939d9fdc68ed1860e266db2"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/utils/train_utils.py",
+    "bytes": 7429,
+    "sha256": "eb28dc573377105a92447f89f12e7f53447672a450b75d988688f7314465b254"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/__init__.py",
+    "bytes": 46,
+    "sha256": "b2e72d0222c4e54f21f491633b5ce6e01bf155dfee9332116f27681237182bb9"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/configs/__init__.py",
+    "bytes": 3059,
+    "sha256": "9d89295316239412d22db8e891471c9b83994dcb6477e343f8e597666dfd3524"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/configs/shared_config.py",
+    "bytes": 974,
+    "sha256": "212e454c27a5e56eb299c2c3f2f6c2aab3737558d85757a2275c8284820ed00f"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/configs/wan_i2v_14B.py",
+    "bytes": 1261,
+    "sha256": "e7f781035f009fa77d147caf2aba6bbc7cec4b7f18832b7f1a25ecf1ca427957"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/configs/wan_i2v_A14B.py",
+    "bytes": 1148,
+    "sha256": "0c116e71c1728d06f1d486423c454884e2cff42acbac18cf512f0b6173031973"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/configs/wan_t2v_14B.py",
+    "bytes": 1007,
+    "sha256": "a79c1903681b7cd5b567274f5c4a9d7e5fad98252548c2bfcd95650c6d399a1b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/configs/wan_t2v_1_3B.py",
+    "bytes": 1033,
+    "sha256": "bcfdc475a9646e65d7ea369a1b89433bbb3ec68f1aebe381461aeab233f84bd8"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/configs/wan_t2v_A14B.py",
+    "bytes": 1142,
+    "sha256": "7f082ced103f52076561842a9309b4e1777acd70606611dc016fdd97378c3a5b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/modules/__init__.py",
+    "bytes": 485,
+    "sha256": "14e0cf52819c195fb204438660f63f05d5ca8a6df79e653194dce5a296cfe75b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/modules/attention.py",
+    "bytes": 10655,
+    "sha256": "9edc0b6073caf5015b3589f1a387af32baed7bc95b7bd696ed0abaf64bf14945"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/modules/clip.py",
+    "bytes": 17174,
+    "sha256": "96745eebcaf8de147fe0c6fcf3fe5c710ca9092c380818c6b3c4a52374f1db63"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/modules/model.py",
+    "bytes": 40969,
+    "sha256": "037e1b1d09aa64a81834f4eaa458020a7738d3a632e96666fcd9baebff604ad5"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/modules/t5.py",
+    "bytes": 17894,
+    "sha256": "d76d2d3fe97a2eaf660d814d21589b0b184b8a0cf963b59bdf7fc200ebd4668b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/modules/tokenizers.py",
+    "bytes": 2431,
+    "sha256": "cf5b189c1ae017326efadab2fc6380ba223fa7a59d0be6464bd264db53c76934"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/modules/vae.py",
+    "bytes": 26613,
+    "sha256": "968e38da423dfd726fdab775277f3bf659a5aeaef3652326bb9c246e4b58cd5f"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/modules/xlm_roberta.py",
+    "bytes": 4865,
+    "sha256": "7e27d93573b5fb0fef1c9db9205264453bd30dcb1404c38031f24ed9c84b8d4a"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/utils/__init__.py",
+    "bytes": 369,
+    "sha256": "a6f201b40c4dd3f9d203266d77d1f7be4c15b60e986072789fd0b93392a28620"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/utils/fm_solvers.py",
+    "bytes": 40229,
+    "sha256": "ca6e84a2ebb169dcf7dd45ce74e399d123203e5bd8ecb80d847115fe13878c44"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/utils/fm_solvers_unipc.py",
+    "bytes": 32645,
+    "sha256": "d885dbe7897502b3eec515ee79ee0dc2251977c04a2787ea6c18824204cced12"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan/utils/utils.py",
+    "bytes": 3256,
+    "sha256": "8e2d85b1c7961233379b9ab38cee153ca8d95358f27cb8bb6dd154e809731c8c"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan_cache_latents.py",
+    "bytes": 14055,
+    "sha256": "15b0788fd8e7fab79ed6374e7f46441c011a2ee240d2932ce4a883b7c21d2f5b"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan_cache_text_encoder_outputs.py",
+    "bytes": 3860,
+    "sha256": "28efe9d7423508630e9de614f8a6b511e2cb55e54bd17cc98ec23f6041672ae7"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan_generate_video.py",
+    "bytes": 90578,
+    "sha256": "8739b1d8e90404fbad83768cea8eb11b70275e1fcf22cb0adf4395233975a457"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/wan_train_network.py",
+    "bytes": 35265,
+    "sha256": "83068e6198e097e711c580d659268f4358ac6f1d6d7b74eeef2a3abf430c96cc"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/zimage/zimage_autoencoder.py",
+    "bytes": 20324,
+    "sha256": "fd25b08baa333d8fcc9932d39b3e146138aaa9622f73343bb2627aba51959cfa"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/zimage/zimage_config.py",
+    "bytes": 2421,
+    "sha256": "68fe542b976edfd343e0db80d58d1f1e9153fa04d0e4d273442cf5e207c479e2"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/zimage/zimage_model.py",
+    "bytes": 34507,
+    "sha256": "0ba7c5f79d22ca88551802496bd9d05f8dc9f00ded32d5e851380168c8e0925e"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/zimage/zimage_utils.py",
+    "bytes": 10497,
+    "sha256": "d76548c5c3a9ad0575acd887648ebf7d2f1fdb2c8fa72f4ade9c1c99ca0d87af"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/zimage_cache_latents.py",
+    "bytes": 4805,
+    "sha256": "b6ee08157db9dde6bd3e39757ec5fe33800e3ceca5a5ec393f5cabdbba899824"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/zimage_cache_text_encoder_outputs.py",
+    "bytes": 4810,
+    "sha256": "b31934d6522e26eac37ccb8e8e285d6784e12a2cfcd37590752ae0a9b8fa2f43"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/zimage_generate_image.py",
+    "bytes": 43351,
+    "sha256": "f6a2fb10cf021b5d7e32b8e6aa2fd26012a24e211a056874c4fbb873c2fd6d48"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/zimage_train.py",
+    "bytes": 32928,
+    "sha256": "cbf82cdba6e28155ca1575e3e376c70a7883cf73d08f65498f68758dcf377bb3"
+  },
+  {
+    "path": "musubi_tuner/src/musubi_tuner/zimage_train_network.py",
+    "bytes": 13944,
+    "sha256": "1bfd17f01cd0c955ab1e6b44b242f09a0bf68ded7b1f61624a895ef0729b707d"
+  },
+  {
+    "path": "musubi_tuner/tests/test_grad_metrics.py",
+    "bytes": 3473,
+    "sha256": "9d9f86e9501879e709de770535c0214fe271bde693df9ef11890963f9b5d30a3"
+  },
+  {
+    "path": "musubi_tuner/tests/test_ideogram4_autoencoder.py",
+    "bytes": 2738,
+    "sha256": "1ee1f1620ebdd0952aa40322c2ae1c43863ab6eb88faa1ee9609c560f63a1b9d"
+  },
+  {
+    "path": "musubi_tuner/tests/test_ideogram4_fp8_loading.py",
+    "bytes": 6290,
+    "sha256": "b7d1b848d4eb62689de07b6a295b8bf7090016e2c7a6ddd709d2bbdd9bd942d0"
+  },
+  {
+    "path": "musubi_tuner/tests/test_ideogram4_lora_sampling.py",
+    "bytes": 949,
+    "sha256": "477d5f2cac74643716e941afe3a89332753d254cf1f505e4fa0d400cc7203d44"
+  },
+  {
+    "path": "musubi_tuner/tests/test_ideogram4_synthetic.py",
+    "bytes": 41276,
+    "sha256": "6c28ea01b102856aeacc0a1a411fee61512fa3f0377aabdecb0b68d45fe22f36"
+  },
+  {
+    "path": "musubi_tuner/tests/test_ideogram4_te_fp8_loading.py",
+    "bytes": 5026,
+    "sha256": "361a00381cfe4d33021b9522555f8cb0d8b6dfef2b4e1aa230e044d311c11713"
+  },
+  {
+    "path": "musubi_tuner/tests/test_ideogram4_timesteps.py",
+    "bytes": 2045,
+    "sha256": "79245cf321fd2c48be44cc0188c078c298be731977591b65812aac2dc2f2f6d8"
+  },
+  {
+    "path": "musubi_tuner/tests/test_krea2_gather_valid_text.py",
+    "bytes": 3179,
+    "sha256": "f9123ed9404870bb9cfd25dabcde19c4ab133e237524a8bceec4b785078c82d0"
+  },
+  {
+    "path": "musubi_tuner/tests/test_krea2_timesteps.py",
+    "bytes": 3806,
+    "sha256": "ff7e10e3fc891afc58d2295bea17c773b32a58a85f85764a109575ab2364f05b"
+  },
+  {
+    "path": "musubi_tuner/tests/test_lora_dtype_bridging.py",
+    "bytes": 9204,
+    "sha256": "4316dc1ebb7056279a7227edd4a57c965439b338dcff5f0ead41ef8116fbac34"
+  },
+  {
+    "path": "musubi_tuner/tests/test_minimax_h3_cache_contract.py",
+    "bytes": 21475,
+    "sha256": "7134d303a64cea5d3fb4d8c9719b10be0b5257faf7c24ae3fecfc68c88d396e9"
+  },
+  {
+    "path": "musubi_tuner/tests/test_minimax_h3_dataset.py",
+    "bytes": 5762,
+    "sha256": "75c02e2c6d6820816847ed1d375bca6976d012c3e99439e775de0a64b52caa18"
+  },
+  {
+    "path": "musubi_tuner/tests/test_minimax_h3_model.py",
+    "bytes": 17825,
+    "sha256": "72e10eca6487b2cfdaaf182566b98b370a3bf1919471bed8b2422917bc105ec8"
+  },
+  {
+    "path": "musubi_tuner/tests/test_minimax_h3_packing.py",
+    "bytes": 11858,
+    "sha256": "f871db3481bab26f7ccee9f7f13985df904db629d1b9232019db7ab46737a020"
+  },
+  {
+    "path": "musubi_tuner/tests/test_minimax_h3_provenance.py",
+    "bytes": 1188,
+    "sha256": "fcd0e3428bd42bdcea470d95cdb39bbcb0fdd8e0e2b0d0288c3d53c14e3e965f"
+  },
+  {
+    "path": "musubi_tuner/tests/test_minimax_h3_sampling.py",
+    "bytes": 14885,
+    "sha256": "b86df7659b6d8b92a4b5dc3acdc4c0aef09b68866452374a71639dc4148c4bd0"
+  },
+  {
+    "path": "musubi_tuner/tests/test_minimax_h3_text_encoder.py",
+    "bytes": 6118,
+    "sha256": "ceda020e550416fcd42cdb8e9090c2cb0ced435d81905793e257c28235a518b4"
+  },
+  {
+    "path": "musubi_tuner/tests/test_minimax_h3_training.py",
+    "bytes": 17187,
+    "sha256": "27664edcd253264543c1f50142963c303b88841e1d097ce07a1f33ab9d4d02fa"
+  },
+  {
+    "path": "musubi_tuner/tests/test_minimax_h3_vae.py",
+    "bytes": 8127,
+    "sha256": "c348300c55afb90bc28507e5b355f08a149dd6e7d1f9b065e3596714f7ceaefb"
+  },
+  {
+    "path": "musubi_tuner/tests/test_sai_model_spec.py",
+    "bytes": 719,
+    "sha256": "279d690fe709923f3e037822aca250aa903f72d74f61b8390bf871bb58e91c1d"
+  },
+  {
+    "path": "musubi_tuner/tests/test_save_precision.py",
+    "bytes": 1326,
+    "sha256": "d9095dbcccd2aa24cb22e0ba68bd45ff3d0816e21dd3f03010bfdc262f775370"
+  },
+  {
+    "path": "musubi_tuner/tests/test_top_level_entrypoints.py",
+    "bytes": 2266,
+    "sha256": "25630734dd1772b10c0236fbe26c71c3372d4d4c1e1d26c6b3b6a8d43bae53fe"
+  },
+  {
+    "path": "musubi_tuner/wan_cache_latents.py",
+    "bytes": 87,
+    "sha256": "22a629f39a7a2ea9e784df14338f7b197c683a1c0a3b89b33c929618d2f871d5"
+  },
+  {
+    "path": "musubi_tuner/wan_cache_text_encoder_outputs.py",
+    "bytes": 100,
+    "sha256": "531feb7937a18cd2b80b738ceb6fc4311e0c97835c9f96c13de04db5b0454b60"
+  },
+  {
+    "path": "musubi_tuner/wan_generate_video.py",
+    "bytes": 88,
+    "sha256": "519414c33ea5946f61beeae6e9efab193a164f0ebfc65c4df578c88290edf5bb"
+  },
+  {
+    "path": "musubi_tuner/wan_train_network.py",
+    "bytes": 87,
+    "sha256": "ccbb8c274a2782ad13df45f5400cb7e929a56283fa69912c4768f05fc9cca9f8"
+  },
+  {
+    "path": "musubi_tuner/zimage_cache_latents.py",
+    "bytes": 90,
+    "sha256": "b913df687f73bddbb0c50273e3a4099d19336c9f82fc14ce3c58d5e09e0911e2"
+  },
+  {
+    "path": "musubi_tuner/zimage_cache_text_encoder_outputs.py",
+    "bytes": 103,
+    "sha256": "8bc21c0028b843d8760fb8e6d363b0ded0bdb85e036551a2e8f5608f0fae0584"
+  },
+  {
+    "path": "musubi_tuner/zimage_generate_image.py",
+    "bytes": 91,
+    "sha256": "1281428e9fa76aac971fda305cdcb6ffaa54fece08cec3502e559526c304dccf"
+  },
+  {
+    "path": "musubi_tuner/zimage_train.py",
+    "bytes": 82,
+    "sha256": "f6a0eba4762ed359e44526464601e200da6f4f43fa87c741e9ce426e7391af16"
+  },
+  {
+    "path": "musubi_tuner/zimage_train_network.py",
+    "bytes": 90,
+    "sha256": "48de18aafe4b9981b36fa6e7b62cc9ed56821256e2b79f919cb4795b194cae52"
+  }
+]

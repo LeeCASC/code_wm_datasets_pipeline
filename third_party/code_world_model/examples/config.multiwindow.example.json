@@ -1,0 +1,29 @@
+{
+  "models": {
+    "dit": "../models/diffusion_models/minimax_h3_ref2va_bf16.safetensors",
+    "video_vae": "../models/vae/minimax_h3_video_vae_fp16.safetensors",
+    "audio_vae": "../models/vae/minimax_h3_audio_vae_fp32.safetensors",
+    "text_encoder": "../models/text_encoders/qwen3vl_32b_minimax_h3_bf16.safetensors",
+    "processor": "../models/processors/Qwen3-VL-32B-Instruct",
+    "lora": "../models/lora/minimax-h3-cwm.safetensors"
+  },
+  "anchor_image": "../inputs/first_frame.png",
+  "condition_root": "../inputs/duv",
+  "cache_dir": "../outputs/multiwindow-example/cache",
+  "output": "../outputs/multiwindow-example/output.mp4",
+  "windows": [
+    {
+      "prompt": "[0.00s-5.17s] Describe the first window's intended scene and actions.",
+      "start_frame": 0
+    },
+    {
+      "prompt": "[3.75s-8.92s] Continue the same scene and actions without a cut.",
+      "start_frame": 90
+    }
+  ],
+  "seed": 1234,
+  "steps": 20,
+  "attention_mode": "flash3",
+  "blocks_to_swap": 48,
+  "expected_lora_modules": 200
+}

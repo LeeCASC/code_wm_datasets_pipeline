@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "world-model-pipeline"
+version = "0.1.0"
+description = "Programmed geometry, CWM/H3 aircraft videos, and UE RGB reference enhancement"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = ["numpy>=2,<3", "Pillow>=11", "av==14.0.1", "imageio-ffmpeg>=0.6", "safetensors==0.4.5"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[project.scripts]
+wmp = "world_model_pipeline.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/world_model_pipeline"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"third_party/code_world_model/src/cwm_h3_inference" = "cwm_h3_inference"
+"third_party/musubi_tuner/src/musubi_tuner" = "musubi_tuner"
+"third_party/code_world_model/LICENSE" = "world_model_pipeline/_notices/CWM_LICENSE"
+"third_party/code_world_model/NOTICE" = "world_model_pipeline/_notices/CWM_NOTICE"
+"third_party/code_world_model/THIRD_PARTY_NOTICES.md" = "world_model_pipeline/_notices/THIRD_PARTY_NOTICES.md"
+"third_party/musubi_tuner/README.md" = "world_model_pipeline/_notices/MUSUBI_README.md"
+
+[tool.hatch.build.targets.sdist]
+include = ["/src", "/scripts", "/configs", "/assets", "/tests", "/docs", "/third_party", "/README.md", "/THIRD_PARTY_NOTICES.md", "/requirements.lock.txt", "/.gitignore", "/.gitattributes", "/models/README.md", "/data/README.md", "/reports/README.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

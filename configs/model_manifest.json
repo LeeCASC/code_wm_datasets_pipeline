@@ -1,0 +1,78 @@
+{
+  "schema": "local_h3_model_manifest_v1",
+  "total_bytes": 125996929736,
+  "files": [
+    {
+      "path": "diffusion_models/minimax_h3_ref2va_bf16.safetensors",
+      "bytes": 66280487368,
+      "sha256": "e32c54c1a7b4f5f397f195cea267ccb18806303bb665678c4bee60953bdf3026"
+    },
+    {
+      "path": "lora/minimax-h3-cwm.safetensors",
+      "bytes": 2385583504,
+      "sha256": "0e14ad22ae203f684ba6521e0b6fbf58f64668ed454fbce346acafd7f448fdb2"
+    },
+    {
+      "path": "processors/Qwen3-VL-32B-Instruct/chat_template.json",
+      "bytes": 5499,
+      "sha256": "5c72a170d2a4a1a3bc5adad2e689ae28138a9700e5b8c96c0266331e86c0acce"
+    },
+    {
+      "path": "processors/Qwen3-VL-32B-Instruct/config.json",
+      "bytes": 1474,
+      "sha256": "d2dd0c60d01b9e195d9447c52da61c7302d28828524914c044d9c6e1b81d0427"
+    },
+    {
+      "path": "processors/Qwen3-VL-32B-Instruct/generation_config.json",
+      "bytes": 269,
+      "sha256": "1e241830b48b397cb0900101421df5450baddc7adf01e5fc86b5615865f3bae4"
+    },
+    {
+      "path": "processors/Qwen3-VL-32B-Instruct/merges.txt",
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    {
+      "path": "processors/Qwen3-VL-32B-Instruct/preprocessor_config.json",
+      "bytes": 390,
+      "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516"
+    },
+    {
+      "path": "processors/Qwen3-VL-32B-Instruct/tokenizer.json",
+      "bytes": 7032403,
+      "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7"
+    },
+    {
+      "path": "processors/Qwen3-VL-32B-Instruct/tokenizer_config.json",
+      "bytes": 10868,
+      "sha256": "c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399"
+    },
+    {
+      "path": "processors/Qwen3-VL-32B-Instruct/video_preprocessor_config.json",
+      "bytes": 385,
+      "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13"
+    },
+    {
+      "path": "processors/Qwen3-VL-32B-Instruct/vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    {
+      "path": "text_encoders/qwen3vl_32b_minimax_h3_bf16.safetensors",
+      "bytes": 51506295368,
+      "sha256": "8e0e9c9818667f68fa09a8c3cd7363f024fcb90c41b9c92d6125a1ff53c34d89"
+    },
+    {
+      "path": "vae/minimax_h3_audio_vae_fp32.safetensors",
+      "bytes": 605254928,
+      "sha256": "8d8dd4cb843e3a5cbc2b1f828b288e26b20f76c2b7ae414285aa720e85bf8088"
+    },
+    {
+      "path": "vae/minimax_h3_video_vae_fp16.safetensors",
+      "bytes": 5207808608,
+      "sha256": "227ad2de69086d6ce430ac44e6ab676596bd4938d859b114e531040c9461c4d9"
+    }
+  ],
+  "weights_in_git": false,
+  "note": "These hashes identify local converted/shared H3 components, not bytewise parity with every upstream package."
+}
